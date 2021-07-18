@@ -1,8 +1,56 @@
-header {
-    background-color: aqua;
+body {
+    text-align: center;
 }
 
 li {
     display: inline;
     float: left;
 }
+
+.left-side {
+    float: left;
+}
+
+.right-side {
+    float: right;
+}
+
+footer .left-side {
+    position: fixed;
+    left: 0;
+	bottom: 0;
+}
+
+footer .right-side {
+    position: fixed;
+    right: 0;
+	bottom: 0;
+}
+
+a, #sign-in {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+img {
+    position: relative;
+    top: 150px;
+    left: 75px;
+    max-width: 19%;
+    height: auto;
+
+}
+
+form {
+    margin-top: 10%;
+    margin-right:25%;
+    margin-left: 25%;
+    
+    width: 50%;
+}
+
+#g-search {
+
+}
+
